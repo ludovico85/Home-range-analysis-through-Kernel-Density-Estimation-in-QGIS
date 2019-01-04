@@ -4,7 +4,12 @@ The model created with the Graphical Model Builder in QGIS 3.4 allows to calcula
 
 The model uses QGIS and SAGA algorithms and works only for QGIS 3.4 (Madeira).
 
-In order to use the model, open QGIS, go to the Processing options, and select Open an existing model... Navigate to the folder containing the model and DONE!
+In order to use the model, download the model "Home Range KDE.model3" first, then open QGIS, go to the Processing options, and select Open an existing model... Navigate to the folder containing the model and DONE!
 
- A detailed description of the algorithm used is available at www.lezionigis.it (italian only).
+<img src = "https://www.lezionigis.it/wp-content/uploads/2019/01/Processing.png"></img>
+
+
+
+ A detailed description of the algorithm used is available at https://www.lezionigis.it/tutorial-n-6-calcolo-dellhome-range-kernel-density-estimation/ (italian only).
+
 
