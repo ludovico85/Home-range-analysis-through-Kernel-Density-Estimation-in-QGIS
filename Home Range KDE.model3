@@ -5,7 +5,7 @@
       <Option value="true" name="active" type="bool"/>
       <Option name="alg_config"/>
       <Option value="gdal:polygonize" name="alg_id" type="QString"/>
-      <Option value="Poligonizzazione" name="component_description" type="QString"/>
+      <Option value="Vectorize" name="component_description" type="QString"/>
       <Option value="2475" name="component_pos_x" type="double"/>
       <Option value="849" name="component_pos_y" type="double"/>
       <Option name="dependencies"/>
@@ -138,7 +138,7 @@
       <Option value="true" name="active" type="bool"/>
       <Option name="alg_config"/>
       <Option value="native:dissolve" name="alg_id" type="QString"/>
-      <Option value="Dissolvi" name="component_description" type="QString"/>
+      <Option value="Dissolve" name="component_description" type="QString"/>
       <Option value="2109" name="component_pos_x" type="double"/>
       <Option value="1113" name="component_pos_y" type="double"/>
       <Option name="dependencies"/>
@@ -166,7 +166,7 @@
       <Option value="true" name="active" type="bool"/>
       <Option name="alg_config"/>
       <Option value="native:orderbyexpression" name="alg_id" type="QString"/>
-      <Option value="Ordina tramite espressione" name="component_description" type="QString"/>
+      <Option value="Order table" name="component_description" type="QString"/>
       <Option value="1579" name="component_pos_x" type="double"/>
       <Option value="681" name="component_pos_y" type="double"/>
       <Option name="dependencies"/>
@@ -206,8 +206,8 @@
       <Option value="true" name="active" type="bool"/>
       <Option name="alg_config"/>
       <Option value="native:reclassifybylayer" name="alg_id" type="QString"/>
-      <Option value="Riclassifica per layer" name="component_description" type="QString"/>
-      <Option value="2217" name="component_pos_x" type="double"/>
+      <Option value="Reclassify by layer" name="component_description" type="QString"/>
+      <Option value="2218" name="component_pos_x" type="double"/>
       <Option value="743" name="component_pos_y" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:reclassifybylayer_1" name="id" type="QString"/>
@@ -215,8 +215,8 @@
         <Option name="home range" type="Map">
           <Option value="native:reclassifybylayer_1" name="child_id" type="QString"/>
           <Option value="home range" name="component_description" type="QString"/>
-          <Option value="2489" name="component_pos_x" type="double"/>
-          <Option value="590" name="component_pos_y" type="double"/>
+          <Option value="2418" name="component_pos_x" type="double"/>
+          <Option value="788" name="component_pos_y" type="double"/>
           <Option name="default_value" type="invalid"/>
           <Option value="false" name="mandatory" type="bool"/>
           <Option value="home range" name="name" type="QString"/>
@@ -294,7 +294,7 @@
       <Option value="true" name="active" type="bool"/>
       <Option name="alg_config"/>
       <Option value="native:smoothgeometry" name="alg_id" type="QString"/>
-      <Option value="smooth" name="component_description" type="QString"/>
+      <Option value="Smooth" name="component_description" type="QString"/>
       <Option value="2771" name="component_pos_x" type="double"/>
       <Option value="841" name="component_pos_y" type="double"/>
       <Option name="dependencies"/>
@@ -303,8 +303,8 @@
         <Option name="home range vector" type="Map">
           <Option value="native:smoothgeometry_1" name="child_id" type="QString"/>
           <Option value="home range vector" name="component_description" type="QString"/>
-          <Option value="3159" name="component_pos_x" type="double"/>
-          <Option value="876" name="component_pos_y" type="double"/>
+          <Option value="2971" name="component_pos_x" type="double"/>
+          <Option value="886" name="component_pos_y" type="double"/>
           <Option name="default_value" type="invalid"/>
           <Option value="false" name="mandatory" type="bool"/>
           <Option value="home range vector" name="name" type="QString"/>
@@ -345,7 +345,7 @@
       <Option value="true" name="active" type="bool"/>
       <Option name="alg_config"/>
       <Option value="qgis:basicstatisticsforfields" name="alg_id" type="QString"/>
-      <Option value="Statistiche di base per campi" name="component_description" type="QString"/>
+      <Option value="Statistic for fields" name="component_description" type="QString"/>
       <Option value="1479" name="component_pos_x" type="double"/>
       <Option value="311" name="component_pos_y" type="double"/>
       <Option name="dependencies"/>
@@ -1185,7 +1185,7 @@
       <Option value="true" name="active" type="bool"/>
       <Option name="alg_config"/>
       <Option value="qgis:heatmapkerneldensityestimation" name="alg_id" type="QString"/>
-      <Option value="Mappa di concentrazione" name="component_description" type="QString"/>
+      <Option value="Default Heat map" name="component_description" type="QString"/>
       <Option value="1267" name="component_pos_x" type="double"/>
       <Option value="418" name="component_pos_y" type="double"/>
       <Option name="dependencies"/>
@@ -1249,7 +1249,7 @@
       <Option value="true" name="active" type="bool"/>
       <Option name="alg_config"/>
       <Option value="qgis:rasterlayerstatistics" name="alg_id" type="QString"/>
-      <Option value="Statistiche raster" name="component_description" type="QString"/>
+      <Option value="Raster statistics" name="component_description" type="QString"/>
       <Option value="1875" name="component_pos_x" type="double"/>
       <Option value="931" name="component_pos_y" type="double"/>
       <Option name="dependencies"/>
@@ -1309,7 +1309,7 @@
     </Option>
   </Option>
   <Option name="help"/>
-  <Option value="search_radius" name="model_group" type="QString"/>
+  <Option value="" name="model_group" type="QString"/>
   <Option value="home_range" name="model_name" type="QString"/>
   <Option name="parameterDefinitions" type="Map">
     <Option name="cellsize" type="Map">
