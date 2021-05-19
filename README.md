@@ -18,7 +18,7 @@ The standard distance is computed as:
 
 where:
 - x i , y i and z i are the coordinates for feature i
-- {x̄, ȳ, z̄} represents the mean center for the features (if the coordinates z is present)
+- {x̄, ȳ, z̄} represents the mean center for the features (if the coordinate z is present)
 - n is equal to the total number of features.
 
 
