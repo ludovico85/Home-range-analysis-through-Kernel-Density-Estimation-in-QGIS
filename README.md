@@ -29,3 +29,6 @@ Please note that for a correct calculation of the home range, point locations mu
 The model uses QGIS algorithms and works only for QGIS 3.16 (and later versions).
 
 In order to use the model, download the model "Home Range KDE.model3" first, then open QGIS, go to the Processing options, and select Open an existing model... Navigate to the folder containing the model and DONE!
+
+
+https://groups.google.com/g/gis-in-ecology-forum/c/-k6fHpJfcRQ?pli=1
