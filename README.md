@@ -1,5 +1,7 @@
 # Home range analysis through Kernel Density Estimation in QGIS
 
+![GitHub last commit](https://img.shields.io/github/last-commit/ludovico85/Home-range-analysis-through-Kernel-Density-Estimation-in-QGIS?color=green&style=plastic)
+
 ![](./img/screenshot.PNG)
 
 The model created with the Graphical Model Builder in QGIS 3.16 allows to calculate the home range for a given level of density (typically 50% and 95%) through Kernel Density Estimation. Kernel Density is based on the Silverman's rule of Thumb for search radius estimantion (unweighted distance).
