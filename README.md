@@ -33,7 +33,7 @@ where:
 
 The model uses QGIS algorithms and works only for QGIS 3.16 (and later versions).
 
-In order to use the model, download the model "Home Range KDE.model3" first, then open QGIS, go to the Processing options, and select Open an existing model... Navigate to the folder containing the model and DONE!
+In order to use the model, download the model [Home Range MCP.model3](https://raw.githubusercontent.com/ludovico85/Home-range-analysis-through-Kernel-Density-Estimation-in-QGIS/master/Home%20Range%20KDE.model3) first, then open QGIS, go to the `Processing options`, and select `Open an existing model...` Navigate to the folder containing the model and DONE!
 
 ## References
 
