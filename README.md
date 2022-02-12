@@ -4,6 +4,8 @@
 
 ![](./img/screenshot.PNG)
 
+**UPDATE 02/2022 I've developed a model which estimates the home range through the MCP in QGIS [Home Range MCP](https://github.com/ludovico85/Home-range-analysis-Minimum-Convex-Polygon-MCP-QGIS)**
+
 The model created with the Graphical Model Builder in QGIS 3.16 allows to calculate the home range for a given level of density (typically 50% and 95%) through Kernel Density Estimation. Kernel Density is based on the Silverman's rule of Thumb for search radius estimantion (unweighted distance).
 
 https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/how-kernel-density-works.htm
