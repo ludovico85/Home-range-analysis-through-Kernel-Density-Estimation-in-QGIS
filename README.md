@@ -9,11 +9,15 @@
 ## Description
 The model created with the Graphical Model Builder in QGIS 3.16 allows to calculate the home range for a given level of density (typically 50% and 95%) through Kernel Density Estimation. [Kernel Density](https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/how-kernel-density-works.html) is based on the Silverman's rule of Thumb for search radius estimantion (unweighted distance),
 
+![https://desktop.arcgis.com/en/arcmap/10.3/tools/spatial-analyst-toolbox/GUID-3F1EEF03-5AFD-45BE-B001-6C960CD48534-web.png](https://desktop.arcgis.com/en/arcmap/10.3/tools/spatial-analyst-toolbox/GUID-3F1EEF03-5AFD-45BE-B001-6C960CD48534-web.png)
+
 where:
 
 - Dm is the median distance from mean center of the points.
 - n is the number of points.
 - SD is the standard distance.
+
+The min part of the equation means that which ever of the two options that results in a smaller value will be used.
 
 The standard distance is computed as:
 
